@@ -1,0 +1,22 @@
+{
+  "name": "devpilot-build",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "devpilot-build": "./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@clack/core": "^1.5.0",
+    "@clack/prompts": "^1.8.0",
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0",
+    "figlet": "^1.11.4"
+  }
+}
