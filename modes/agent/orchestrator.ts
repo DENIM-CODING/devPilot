@@ -6,6 +6,7 @@ import { ToolExecutor } from "./tool-executor";
 import { createAgentTools } from "./agent-tools";
 import { getAgentModel } from "../../ai";
 import { stepCountIs, ToolLoopAgent } from "ai";
+import { renderTerminalMarkdown } from "../../tui/terminal-md";
 
 export async function runAgentMode() {
   console.log(chalk.bold("\n🤖 Agent Mode\n"));
@@ -51,5 +52,5 @@ export async function runAgentMode() {
     },
   });
 
-  if (result.text?.trim()) console.log(result.text);
+  if (result.text?.trim()) console.log(renderTerminalMarkdown(result.text));
 }
