@@ -42,12 +42,12 @@ DevPilot brings these workflows into an interactive terminal experience. It comb
 - Retrieve webpage content for research.
 - Use web research in Plan Mode when Firecrawl is configured.
 
-## Demo
+<!-- ## Demo
 
 **Coming soon:** A real terminal walkthrough demonstrating Ask, Plan, and Agent modes, tool execution, diff previews, and approval.
 
 - Demo video: _Add link_
-- Product website: _Add link_
+- Product website: _Add link_ -->
 
 ## Architecture
 
